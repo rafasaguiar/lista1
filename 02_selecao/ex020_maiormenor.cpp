@@ -9,19 +9,19 @@ int main () {
     cout <<"Digite mais um numero real qualquer: ";
     cin >> n3;
 
-    if (n1 > n2 && n1 > n3) {
+    if (n1 >= n2 && n1 >= n3) {
         cout <<"O maior numero e " << n1;
     }
-    else if (n2 > n1 && n2 > n3) {
+    else if (n2 >= n1 && n2 >= n3) {
         cout <<"O maior numero e " << n2;
     }
     else {
         cout <<"O maior numero e " << n3;
     }
-    if (n1 < n2 && n1 < n3) {
+    if (n1 <= n2 && n1 <= n3) {
         cout <<"\nO menor numero e " << n1;
     }
-    else if (n2 < n1 && n2 < n3) {
+    else if (n2 <= n1 && n2 <= n3) {
         cout <<"\nO menor numero e " << n2;
     }
     else {
