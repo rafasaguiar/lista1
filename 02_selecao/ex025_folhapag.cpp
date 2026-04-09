@@ -22,7 +22,7 @@ int main () {
         salarioliq = salariobruto - (inss + ir);
         cout <<"\nSalario Liquido: " << salarioliq;
     }
-    else if (salariobruto > 2500.00 & salariobruto <= 3500.00) {
+    else if (salariobruto > 2500.00 && salariobruto <= 3500.00) {
         cout <<"\nSalario bruto: " << salariobruto;
         ir = salariobruto * 0.05;
         cout <<"\n(-) IR (5%): " << ir;
@@ -55,4 +55,5 @@ int main () {
         salarioliq = salariobruto - (inss + ir);
         cout <<"\nSalario Liquido: " << salarioliq;
     }
+return 0;
 }
