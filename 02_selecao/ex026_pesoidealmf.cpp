@@ -20,4 +20,5 @@ int main () {
     else {
         cout <<"Invalido!";
     }
+return 0;
 }
