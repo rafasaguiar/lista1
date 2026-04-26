@@ -14,6 +14,7 @@ int main () {
     } while (contador <= 5);
 
     media = soma/5;
+    cout << "A soma dos 5 numeros sera: " << soma << endl;
     cout << "A media dos 5 numeros sera: " << media << endl;
 
 return 0;    
